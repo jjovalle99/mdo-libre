@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "mdolibre"
+version = "0.1.0"
+description = "Prueba mdo libre"
+authors = ["jjovalle99 <jj.ovalle@uniandes.edu.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+
+[tool.poetry.group.format.dependencies]
+ruff = "^0.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 130
