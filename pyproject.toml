@@ -13,6 +13,11 @@ scipy = "^1.14.0"
 wordcloud = "^1.9.3"
 pandas = "^2.2.2"
 seaborn = "^0.13.2"
+requests = "^2.32.3"
+xgboost = "^2.1.0"
+scikit-learn = "^1.5.1"
+scikit-optimize = "^0.10.2"
+shap = "^0.46.0"
 
 
 [tool.poetry.group.dev.dependencies]
